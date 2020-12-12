@@ -13,7 +13,7 @@ public class UnitychanWalk : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>();
-        //Invoke("TargetFind", 7f);   
+        Invoke("TargetFind", 7f);   
     }
 
     private void OnAnimatorMove()
